@@ -1,0 +1,10 @@
+body{
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.btn{
+    padding: 15px;
+    font-size: 3rem;
+}
