@@ -1,0 +1,28 @@
+#number{
+    display:block;
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 8rem;
+}
+
+#btnContainer{
+    text-align: center;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 8px;
+}
+
+#decreaseBtn{
+    background-color: hsl(0, 100%, 70%);
+}
+
+#resetBtn{
+    background-color: hsl(226, 100%, 70%);
+}
+
+#increaseBtn{
+    background-color: hsl(122, 100%, 70%);
+}
