@@ -4,7 +4,7 @@ const max = 100;
 const value= Math.floor(Math.random()*max)+min;
 let guess;
 let attempts=0;
-let dif = 0;
+let diff = 0;
 document.getElementById("title").textContent = `Guess the number between ${min} - ${max}`;
 document.getElementById("submit").onclick = function () {
     attempts++;
@@ -13,8 +13,8 @@ document.getElementById("submit").onclick = function () {
     if(isNaN(guess)){
         document.getElementById("message").textContent = `Please enter a valid number`;
     } else if(guess!=value){
-        dif = Math.abs(value-guess);
-        console.log(dif);
+        diff = Math.abs(value-guess);
+        console.log(diff);
         if(dif>50){
             document.getElementById("message").textContent = "Very cold";
         } else if(dif>25){
