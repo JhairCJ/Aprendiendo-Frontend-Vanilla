@@ -1,0 +1,48 @@
+body{
+    margin:0px;
+    color:#ffffff;
+}
+.container{
+    padding:2rem 5rem;
+    background-color: #232830;
+    height:100vh;
+}
+.header-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header-text{
+    font-family: Poppins;
+}
+.header-labels{
+    display:flex;
+    flex-direction: row;
+    gap:20px
+}
+
+.slogan-container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title{
+    font-family: Recursive;
+    font-style: italic;
+    color: #FF7575;
+    font-weight: 400;
+    font-size: clamp(20px, 3rem, 71px);
+}
+.subtitle{
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+.logo{
+    height:8rem;
+    margin-left: 20px;
+}
+
