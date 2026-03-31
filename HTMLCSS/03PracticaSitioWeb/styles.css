@@ -5,7 +5,7 @@ body{
 .container{
     padding:2rem 5rem;
     background-color: #232830;
-    height:100vh;
+    min-height: 100vh;
 }
 .header-container{
     display:flex;
@@ -44,5 +44,23 @@ body{
 .logo{
     height:8rem;
     margin-left: 20px;
+}
+
+
+.articles-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+
+.pagination-list{
+    list-style: none;
+}
+
+
+.footer{
+    background-color: none;
 }
 
