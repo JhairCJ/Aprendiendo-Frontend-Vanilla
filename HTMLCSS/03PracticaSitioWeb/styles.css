@@ -47,6 +47,18 @@ body{
 }
 
 
+.listing-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.listing-icons{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
 .articles-container{
     display: flex;
     flex-wrap: wrap;
@@ -57,10 +69,22 @@ body{
 
 .pagination-list{
     list-style: none;
+    display: block;
+    text-align: center;
 }
 
+.pagination-item{
+    display: inline-block;
+}
 
 .footer{
     background-color: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.promo-footer{
+    display:grid;
+    grid-auto-flow: column;
 }
 
