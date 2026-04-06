@@ -15,7 +15,14 @@ body{
 }
 .header-text{
     font-family: Poppins;
+    transition: all 0.3s ease;
 }
+
+.header-text:hover{
+    color: #909090;
+    cursor: pointer;
+}
+
 .header-labels{
     display:flex;
     flex-direction: row;
@@ -90,7 +97,8 @@ body{
 
 .article:hover{
     transform: scale(1.01);
-    background-color: hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 92%);
+    cursor: pointer;
 }
 
 .article-image{
