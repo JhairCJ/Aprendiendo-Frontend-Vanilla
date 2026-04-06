@@ -72,14 +72,15 @@ body{
     gap: 1.5rem;
     flex-direction: row;
     justify-content: space-between;
-
+    
 
 }
 
 .article{
+    margin:auto;
     background-color: white;
     color:black;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 8px;
     font-family: Poppins, sans-serif;
     width: 350px;
@@ -91,6 +92,17 @@ body{
     height: 37%;
     border-radius: 8px;
     
+}
+
+.article-footer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.separation-char{
+    margin: 0 15px;
+    font-size: 30px;
 }
 
 .pagination-list{
