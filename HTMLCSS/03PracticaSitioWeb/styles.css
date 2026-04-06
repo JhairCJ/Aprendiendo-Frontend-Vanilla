@@ -85,6 +85,12 @@ body{
     font-family: Poppins, sans-serif;
     width: 350px;
     height: 400px;
+    transition: all 0.3s ease;
+}
+
+.article:hover{
+    transform: scale(1.01);
+    background-color: hsl(0, 0%, 95%);
 }
 
 .article-image{
